@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="شركة فرصة سفر هي بوابتك الأولى للحصول على وظيفة أحلامك في الخارج. نحن نربط الكفاءات المصرية بأفضل الشركات العالمية." />
+    <title>فرصة سفر | بوابتك للعمل في الخارج</title>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+      }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <script>
+      // Fix for dark mode flicker: Apply theme class immediately from localStorage or system preference
+      (function() {
+        try {
+          const theme = localStorage.getItem('theme');
+          if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (_) {}
+      })();
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: 'Cairo', sans-serif;
+        /* Set base theme colors on the body to prevent flash and provide a single source of truth */
+        background-color: #ffffff; /* bg-white */
+        color: #1f2937;      /* text-gray-800 */
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+      .dark body {
+          background-color: #111827; /* bg-gray-900 */
+          color: #e5e7eb;      /* text-gray-200 */
+      }
+      .gradient-text {
+        background: linear-gradient(90deg, #4F46E5, #9333EA);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react/": "https://esm.sh/react@18.2.0/",
+    "react-dom": "https://esm.sh/react-dom@18.2.0",
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+    "react-dom/": "https://esm.sh/react-dom@18.2.0/"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-Ce6D6_pk.js"></script>
+</head>
+  <body>
+    <div id="root"></div>
+</body>
+</html>
