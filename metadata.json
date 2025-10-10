@@ -1,0 +1,7 @@
+{
+  "name": "Forsa Sfr - Digital Marketing Agency",
+  "description": "A responsive landing page for Forsa Sfr, a digital marketing and programming agency, meticulously recreated using React and Tailwind CSS to mirror the design and functionality of their official website.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
