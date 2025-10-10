@@ -1,9 +1,10 @@
+// package.json
 {
   "name": "fursa-safar-app",
   "version": "1.0.0",
   "description": "A responsive landing page for Forsa Sfr.",
   "private": true,
-  "homepage": "https://amgdsmousa.github.io/Fursat-Safar",
+  "homepage": "https://amgedsayed.my", // <--- تم التعديل هنا
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,16 +12,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.2.1",
-    "gh-pages": "^6.1.1",
-    "vite": "^7.1.9"
-  }
+  // ... باقي الملف ...
 }
