@@ -11,6 +11,7 @@
       padding: 0;
       box-sizing: border-box;
       font-family: "Cairo", sans-serif;
+      scroll-behavior: smooth;
     }
     body {
       background-color: #f9fafc;
@@ -125,7 +126,6 @@
   color: white;
   text-align: center;
   padding: 70px 20px;
-  border-radius: 0;
   margin-top: 80px;
 }.subscribe h2 {
   font-size: 2rem;
@@ -172,19 +172,19 @@
   <header>
     <div class="logo">فرصة سفر</div>
     <nav>
-      <a href="#">الرئيسية</a>
-      <a href="#">الوظائف</a>
-      <a href="#">عن الموقع</a>
-      <a href="#">تواصل معنا</a>
+      <a href="#hero">الرئيسية</a>
+      <a href="#jobs">الوظائف</a>
+      <a href="#subscribe">عن الموقع</a>
+      <a href="#subscribe">تواصل معنا</a>
       <a href="#" class="btn-primary">تسجيل الدخول</a>
     </nav>
   </header>
-  <section class="hero">
+  <section class="hero" id="hero">
     <h1>فرصة سفر: بوابتك لوظيفة أحلامك في الخارج</h1>
     <p>نحن نربط الكفاءات المصرية بأفضل الشركات العالمية، ونوفر لك فرصة لبناء مستقبل مهني واعد خارج مصر.</p>
-    <a href="#" class="btn-primary">ابحث عن وظيفة</a>
+    <a href="#jobs" class="btn-primary">ابحث عن وظيفة</a>
   </section>
-  <section class="jobs">
+  <section class="jobs" id="jobs">
     <h2>الوظائف المميزة</h2>
     <div class="job-cards">
       <div class="job-card">
@@ -204,7 +204,7 @@
       </div>
     </div>
   </section>
-  <section class="subscribe">
+  <section class="subscribe" id="subscribe">
     <h2>اشترك لتصلك أحدث الوظائف</h2>
     <p>سجل بريدك الإلكتروني لتصلك الفرص الجديدة فورًا.</p>
     <form>
